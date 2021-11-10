@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Responsive Sidebar</title>
+
+        <!--FONTS-->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+            rel="stylesheet"
+        />
+
+        <!--STYLE-->
+        <link rel="stylesheet" href="./style.css" />
+
+        <!--ICONS-->
+        <link rel="icon" href="./assets/style.css" />
+    </head>
+    <body>
+        <nav class="sidebar">
+            <header class="logoDetails">
+                <a href="#">
+                    <img src="./assets/logo.svg" alt="Logo Vet" id="logo" />
+                </a>
+
+                <img src="./assets/menu.svg" class="menu" id="btn" />
+            </header>
+
+            <ul class="navList">
+                <li class="search">
+                    <div class="inputSearch">
+                        <img src="./assets/search.svg" class="searchImg" />
+                    </div>
+                    <input type="search" placeholder="Buscar..." />
+                </li>
+
+                <li>
+                    <a href="#">
+                        <img src="./assets/grid.svg" />
+                        <span class="linkName">Dashboard</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <img src="./assets/pet.svg" />
+                        <span class="linkName">Pets</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <img src="./assets/user.svg" />
+                        <span class="linkName">Clientes</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <img src="./assets/vet.svg" />
+                        <span class="linkName">Vets</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <img src="./assets/settings.svg" />
+                        <span class="linkName">Ajustes</span>
+                    </a>
+                </li>
+
+                <li id="profile">
+                    <div class="profileDetails">
+                        <img src="./assets/photo.jpg" />
+                        <div class="nameJob">
+                            <p class="name">Eleanor Pena</p>
+                            <p class="job">Veterinária</p>
+                        </div>
+                    </div>
+                    <img src="./assets/log-out.svg" id="logOut" />
+                </li>
+            </ul>
+        </nav>
+
+        <main class="main">
+            <h2>Dashboard</h2>
+        </main>
+
+        <!--SCRIPT-->
+        <script src="./script.js"></script>
+    </body>
+</html>
